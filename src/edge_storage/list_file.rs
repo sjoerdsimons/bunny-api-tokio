@@ -31,7 +31,7 @@ pub struct ListFile {
     /// ID of the storage zone the object is in
     pub storage_zone_id: u32,
     /// File checksum on server
-    pub checksum: String,
+    pub checksum: Option<String>,
     /// Zones the object is replicated to
-    pub replicated_zones: String,
+    pub replicated_zones: Option<String>,
 }
