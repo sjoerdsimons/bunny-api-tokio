@@ -13,7 +13,7 @@ pub struct ListFile {
     /// Object name
     pub object_name: String,
     /// Length of the object in bytes
-    pub length: u32,
+    pub length: usize,
     /// When the object was last modified
     pub last_changed: String,
     /// ??
